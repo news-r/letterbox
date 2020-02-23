@@ -35,13 +35,15 @@ letterbox_key("xxXxxX", "XxxXx")
 Get some data.
 
 ```{r}
-letterbox::get_articles(
+articles <- letterbox::get_articles(
   q = "United Nations", 
   since = Sys.Date() - 7, 
   until = Sys.Date(), 
   language = "en",
   results = 100
 )
+
+knitr::kable(head(articles))
 ```
 
 ## Installation
