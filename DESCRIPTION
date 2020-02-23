@@ -13,8 +13,10 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 Imports:
+  dplyr,
   newsapi,
-  currents
+  currents,
+  assertthat
 Remotes:
   news-r/newsapi,
   news-r/currents
