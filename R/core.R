@@ -10,7 +10,7 @@
 #' @import assertthat
 #' 
 #' @export
-get_data <- function(q, since, until, language = NULL, results = 1000){
+get_articles <- function(q, since, until, language = NULL, results = 1000){ 
 
   assert_that(not_missing(q))
   assert_that(not_missing(since), not_missing(until))
