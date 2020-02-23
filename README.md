@@ -13,6 +13,26 @@ status](https://travis-ci.org/news-r/letterbox.svg?branch=master)](https://travi
 
 letterbox is a news article crawler.
 
+## Usage
+
+Setup your session.
+
+``` r
+letterbox_key("xxXxxX", "XxxXx")
+```
+
+Get some data.
+
+``` r
+letterbox::get_articles(
+  q = "United Nations", 
+  since = Sys.Date() - 7, 
+  until = Sys.Date(), 
+  language = "en",
+  results = 100
+)
+```
+
 ## Installation
 
 You can install the released version of letterbox from Github with:
