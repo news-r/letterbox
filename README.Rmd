@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 [![Travis build status](https://travis-ci.org/news-r/letterbox.svg?branch=master)](https://travis-ci.org/news-r/letterbox)
 <!-- badges: end -->
 
-letterbox is a news article crawler.
+letterbox is a news article crawler from newsapi, and currents.
 
 ## Usage
 
